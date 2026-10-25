@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One More Prompt | Links</title>
+<meta name="description" content="Free AI tools, tested by a dev who can't stop at one more prompt. All my links in one place.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Brand colours from assets/brand/BRAND.md */
+  :root {
+    --night: #1c1630;
+    --night-2: #2a2145;
+    --coral: #f17762;
+    --mint: #bef0d4;
+    --cream: #fff4e8;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--night) url("bg.jpg") center top / cover no-repeat fixed;
+    color: var(--cream);
+    font-family: "Fredoka", system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 48px 16px 40px;
+  }
+  main {
+    width: 100%;
+    max-width: 440px;
+    text-align: center;
+  }
+  .avatar {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    margin: 0 auto 16px;
+    display: block;
+    object-fit: cover;
+  }
+  h1 {
+    font-size: 24px;
+    margin: 0 0 6px;
+    font-weight: 700;
+  }
+  .bio {
+    margin: 0 0 28px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--cream);
+    opacity: 0.85;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  a.link {
+    display: block;
+    padding: 16px 18px;
+    border-radius: 14px;
+    background: var(--night-2);
+    border: 2px solid var(--coral);
+    color: var(--cream);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    transition: transform 0.08s ease, background 0.15s ease;
+  }
+  a.link:hover, a.link:focus-visible {
+    background: var(--coral);
+    color: var(--night);
+    transform: translateY(-1px);
+    outline: none;
+  }
+  a.link.featured {
+    background: var(--mint);
+    border-color: var(--mint);
+    color: var(--night);
+  }
+  a.link.featured:hover, a.link.featured:focus-visible {
+    background: var(--coral);
+    border-color: var(--coral);
+  }
+  .small {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.75;
+    margin-top: 2px;
+  }
+  footer {
+    margin-top: 32px;
+    font-size: 13px;
+    opacity: 0.6;
+  }
+</style>
+</head>
+<body>
+<main>
+  <img class="avatar" src="profile.png" alt="One More Prompt mascot" width="104" height="104">
+  <h1>One More Prompt | AI Tools</h1>
+  <p class="bio">Free AI tools, tested by a dev who can't stop at one.<br>Real work stories, the 2 AM kind.</p>
+
+  <nav aria-label="Links">
+    <a class="link featured" href="https://notebook.google.com/" target="_blank" rel="noopener">
+      Free tool from the latest reel
+      <span class="small">Gemini Notebook (the old NotebookLM). Log in with Google.</span>
+    </a>
+    <a class="link" href="https://www.instagram.com/justonemoreprompt_/" target="_blank" rel="noopener">
+      Instagram
+      <span class="small">@justonemoreprompt_</span>
+    </a>
+    <a class="link" href="https://www.tiktok.com/@justonemoreprompt_" target="_blank" rel="noopener">
+      TikTok
+      <span class="small">@justonemoreprompt_</span>
+    </a>
+    <a class="link" href="https://www.youtube.com/@justonemoreprompt_" target="_blank" rel="noopener">
+      YouTube Shorts
+      <span class="small">@justonemoreprompt_</span>
+    </a>
+  </nav>
+
+  <footer>New reel most days.</footer>
+</main>
+</body>
+</html>
